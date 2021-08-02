@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery.min.js"></script>
+    <title>PROFENCE</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style>
+        body {
+            background: url('images/skyline.jpeg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        div {
+        }
+
+        #td1:hover {
+            background-image: url("images/im1.png");
+            background-size: 47vw 38vh;
+        }
+
+        #td2:hover {
+            background-image: url("images/im2.png");
+            background-size: 49vw 38vh;
+        }
+
+        #td3:hover {
+            background-image: url("images/im3.png");
+            background-size: 49vw 38vh;
+        }
+
+        #td4:hover {
+            background-image: url("images/im4.png");
+            background-size: 49vw 38vh;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/logo1.png" style="margin:2vh 35vw;height:100px; width:468px" />
+        <br><br>
+
+
+        <table style="width:98vw;table-layout:fixed; border-top-color:black;border:1px" cellpadding="75">
+
+            <tr>
+                <td id="td1" style="color:white;font-size:100px;text-align:center;border:1px solid white;border-top-color:black;border-left-color:black;border-bottom-color:black"><a href="Australia/australia.html" id="u2">AUSTRALIA</a></td>
+                <td id="td2" style="color:white;font-size:100px;text-align:center;border:1px solid white;border-top-color:black;border-right-color:black;border-left-color:black;border-bottom-color:black"><a href="India/index.html" id="u1">INDIA</a></td>
+            </tr>
+
+            <tr>
+                <td id="td3" style="color:white;font-size:100px;text-align:center;border:1px solid white;border-bottom-color:black;border-left-color:black">
+                    <a href="#" id="u3">UAE</a>
+                    <div id="u3_1" style="display:none;font-size:60px">
+                        <a href="UAE/dubai.html">Dubai</a>
+                    </div>
+                </td>
+                <td id="td4" style="color:white;font-size:100px;text-align:center;border:1px solid white;border-bottom-color:black;border-right-color:black;border-left-color:black"><a href="USA/Main_code.html" id="u4">USA</a></td>
+            </tr>
+
+        </table>
+    </div>
+    <script>
+        $("#u3").click(function () {
+            $("#u3").hide();
+            $("#u3_1").show();
+        });
+        $("#td3").mouseleave(function () {
+            $("#u3").show();
+            $("#u3_1").hide();
+        });
+    </script>
+
+</body>
+</html>

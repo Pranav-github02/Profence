@@ -1,0 +1,125 @@
+﻿@media only screen and (min-width: 768px) {
+    .section1 .container2 {
+        width: 750px;
+    }
+
+        .section1 .container2 .row1 .col {
+            width: 100%;
+            float: left;
+        }
+
+    .section2 .container3 .row3 .col-33 {
+        width: 33.333%;
+    }
+
+    .section3 .container4 .row4 .col-100 {
+        width: 100%;
+    }
+
+    .section3_1 .container4_1 .row4_1 .col-33 {
+        width: 33.333%;
+    }
+
+    .section_last .container4 .inner .row .a {
+        width: 34.33333333%;
+        float: left;
+    }
+
+    .section_last .container4 .inner .row .b {
+        width: 28.333333%;
+        float: left;
+    }
+
+    .section_last .container4 .inner .row .c {
+        width: 33.33333333%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section_last .container4 {
+        width: 650px;
+    }
+
+        .section_last .container4 .inner .row .a {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 45.333%;
+        }
+
+        .section_last .container4 .inner .row .b {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 25.333%
+        }
+
+        .section_last .container4 .inner .row .c {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 25.333%
+        }
+}
+
+@media only screen and (max-width: 990px) {
+    .section1 .container2_1 .row2 .content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container1 {
+        height: 300px;
+    }
+
+        .container1 .inner .content {
+            padding-top: 0;
+            width: 768px;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section3 .container4 .row4 .col-100 .outer .inner .inner1 .content span {
+        max-width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 21px;
+        line-height: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+    .weather {
+        font-size: 12px;
+    }
+    .locate {
+        font-size: 12px;
+    }
+
+    .section1 .container2_1 {
+        width: 750px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container1 .inner .content {
+        width: 960px;
+    }
+
+    .section1 .container2_1 .row2 .content .col2 .about h3 {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+
+    .section2 .container3 {
+        width: 960px;
+    }
+
+    .section3 .container4 {
+        width: 960px;
+    }
+
+    .section3_1 .container4_1 {
+        width: 960px;
+    }
+}

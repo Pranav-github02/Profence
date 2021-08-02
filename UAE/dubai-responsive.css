@@ -1,0 +1,228 @@
+﻿@media only screen and (min-width: 768px) {
+    .section_availability .container1 .row1 .col-33 {
+        width: 33.333%;
+    }
+
+    .section_availability .container1 .row1 .col-66 {
+        width: 66.666%;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 {
+        width: 100%;
+    }
+
+    .section_about .container2 {
+        width: 750px;
+    }
+
+        .section_about .container2 .row2 col {
+            width: 100%;
+            float: left;
+        }
+
+    .section_amenities .container3 .row3_1 .col-100 {
+        width: 100%
+    }
+
+    .section_last .container4 .inner .row .a {
+        width: 34.33333333%;
+        float: left;
+    }
+
+    .section_last .container4 .inner .row .b {
+        width: 28.333333%;
+        float: left;
+    }
+
+    .section_last .container4 .inner .row .c {
+        width: 33.33333333%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .section_home .welcome_content .welcome_content_title {
+        font-size: 42px;
+    }
+
+    .section_home .welcome_content .welcome_content_title-primary {
+        font-size: 14px;
+        letter-spacing: 12px;
+    }
+
+    .section_home .welcome_content .welcome_content_desc {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .section_about .container2_1 .row2_1 .content .col1 .image img {
+        max-width: 100%;
+    }
+
+    .section_last .container4 {
+        width: 650px;
+    }
+
+        .section_last .container4 .inner .row .a {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 45.333%;
+        }
+
+        .section_last .container4 .inner .row .b {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 25.333%
+        }
+
+        .section_last .container4 .inner .row .c {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 25.333%
+        }
+}
+
+@media only screen and (max-width: 990px) {
+    .btn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+
+    .section_home .welcome_content .welcome_content_title {
+        font-size: 72px;
+    }
+
+    .section_about {
+        padding-top: 50px;
+    }
+
+        .section_about .container2_1 .row2_1 .content {
+            flex-direction: column;
+        }
+
+            .section_about .container2_1 .row2_1 .content .col2 .about {
+                padding: 40px;
+                margin: 0 6%;
+                transform: translate(0, -100px);
+            }
+
+    .section_last .conatiner4 .inner .row .a img {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    .section_availability .container1 {
+        flex-wrap: wrap;
+    }
+
+        .section_availability .container1 .row1 {
+            flex-wrap: wrap;
+        }
+
+            .section_availability .container1 .row1 .col-33 .availability {
+                margin: 30px 0px 0px 0px;
+            }
+
+                .section_availability .container1 .row1 .col-33 .availability .room_reservation .outer .outer1 {
+                    margin: 82px 0px 84px 0px;
+                    padding: 0px 0px 0px 0px;
+                }
+
+            .section_availability .container1 .row1 .col-66 .menu {
+                margin: 30px 0px 0px 0px;
+            }
+
+    .section_about .container2_1 .row2_1 .content .col2 .about {
+        padding: 40px;
+        margin: 0 6%;
+        transform: translate(0, -100px);
+    }
+
+    .section_amenities {
+        padding: 0px 0px 0px 0px;
+    }
+
+        .section_amenities .container3 {
+            flex-wrap: wrap;
+        }
+
+            .section_amenities .container3 .row3_1 {
+                flex-wrap: wrap;
+            }
+
+                .section_amenities .container3 .row3_1 .col-100 .outer {
+                    margin: 0px 0px 0px 0px;
+                }
+
+                    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities {
+                        margin: 20% 17% 20% 17%;
+                        padding: 4% 4% 4% 4%;
+                    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+    .weather {
+        font-size: 12px;
+    }
+    .locate {
+        font-size: 12px;
+    }
+
+    .section_availability .container1 .row1 .col-33 {
+        width: 100%;
+    }
+
+    .section_availability .container1 .row1 .col-66 {
+        width: 100%;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .bed {
+        width: 33.33333%;
+        clear: both;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .wifi {
+        width: 33.33333%;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .bath {
+        width: 33.33333%;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .safe {
+        width: 33.33333%;
+        clear: both;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .exercise {
+        width: 33.33333%;
+    }
+
+    .section_amenities .container3 .row3_1 .col-100 .outer .inner .amenities .amenities_list .inner .drinks {
+        width: 33.33333%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section_about .container2_1 .row2_1 .content .col2 .about {
+        transform: translateX(-50px);
+        padding: 30px;
+    }
+
+        .section_about .container2_1 .row2_1 .content .col2 .about h3 {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        .section_about .container2_1 .row2_1 .content .col2 .about .about_desc {
+            line-height: 1.6em;
+        }
+}
