@@ -33,7 +33,7 @@ $(document).ready(function () {
         }
         else {
             alert("For making a booking of more than 10 rooms, kindly contact us")
-            var url = "contact-dubai.html";
+            var url = "contact.html";
             $(location).attr('href', url);
             return false
         }
